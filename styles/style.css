@@ -79,3 +79,25 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
+
+.featured-pic-container{
+    width: 1440px;
+    display: flex;
+justify-content: space-between;
+/* border: 2px solid black; */
+margin: auto;
+}
+
+.featured-pic{
+    text-align: center;
+}
+.featured-pic img{
+    width: 460px;
+  margin-bottom: 30px;
+}
+
+.featured-pic a{
+color: #272727;
+font-size: 24px;
+font-weight: 700;
+}
