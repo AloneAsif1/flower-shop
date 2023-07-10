@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Designing the Banner */
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    width: 100%;
+    padding: 50px 240px 0px 240px;
+  
+}
+
+.banner img{
+   
+    width: 635px;
+    /* border: 2px solid black; */
+}
+
+.banner-content{
+    width: 708px;
+    /* border: 2px solid black; */
+}
+.banner h1{
+    color: #272727;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.banner p{
+    display: flex;
+width: 634px;
+flex-direction: column;
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
