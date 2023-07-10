@@ -1,47 +1,48 @@
-body{
+body {
     font-family: 'Roboto Slab', serif;
 }
 
 /* Designing the Banner */
-.banner{
+.banner {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     width: 100%;
     padding: 50px 240px 0px 240px;
     margin-bottom: 175px;
-  
+
 }
 
-.banner img{
-   
+.banner img {
+
     width: 635px;
     /* border: 2px solid black; */
 }
 
-.banner-content{
+.banner-content {
     width: 708px;
     /* border: 2px solid black; */
 }
-.banner h1{
+
+.banner h1 {
     color: #272727;
     font-size: 80px;
     margin-top: 150px;
     margin-bottom: 0px;
 }
 
-.banner p{
+.banner p {
     display: flex;
-width: 634px;
-flex-direction: column;
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 32px;
-margin-bottom: 32px;
+    width: 634px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
-.banner button{
+.banner button {
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -52,93 +53,95 @@ margin-bottom: 32px;
     cursor: pointer;
 }
 
-.banner button:hover{
+.banner button:hover {
     background-color: rgb(59, 56, 56);
 
 }
 
 /* styling featured part */
-.featured{
+.featured {
     width: 600px;
     margin: 0 auto;
     margin-bottom: 50px;
     /* border: 2px solid black; */
 }
 
-.featured>h3{
+.featured>h3 {
     text-align: center;
     color: #272727;
     font-size: 40px;
 
 }
 
-.featured>p{
+.featured>p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.featured-pic-container{
+.featured-pic-container {
     width: 1440px;
     display: flex;
-justify-content: space-between;
-/* border: 2px solid black; */
-margin: auto;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    margin: auto;
 }
 
-.featured-pic{
+.featured-pic {
     text-align: center;
 }
-.featured-pic img{
+
+.featured-pic img {
     width: 460px;
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.featured-pic a{
-color: #272727;
-font-size: 24px;
-font-weight: 700;
+.featured-pic a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.deal-container{
+.deal-container {
     width: 100%;
-background-color: rgb(234, 226, 235);
-display: flex;
-padding: 100px 400px;
-margin-top: 100px;
+    background-color: rgb(234, 226, 235);
+    display: flex;
+    padding: 100px 400px;
+    margin-top: 100px;
 }
 
-.deal img{
+.deal img {
     width: 320px;
     margin-left: 100px;
 
 }
 
-.deal-content{
+.deal-content {
     text-align: center;
     width: 600px;
     margin-right: 100px;
 }
 
-.deal-content h3{
+.deal-content h3 {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
-line-height: normal;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
 
 }
 
-.deal-content p{
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+
+.deal-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.deal-content button{
+.deal-content button {
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -147,4 +150,31 @@ line-height: 30px;
     padding: 20px 40px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.insta {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.insta h3{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+
+.insta p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.insta-container{
+    width: 1540px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
