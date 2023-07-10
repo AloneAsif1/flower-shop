@@ -101,3 +101,50 @@ color: #272727;
 font-size: 24px;
 font-weight: 700;
 }
+
+.deal-container{
+    width: 100%;
+background-color: rgb(234, 226, 235);
+display: flex;
+padding: 100px 400px;
+margin-top: 100px;
+}
+
+.deal img{
+    width: 320px;
+    margin-left: 100px;
+
+}
+
+.deal-content{
+    text-align: center;
+    width: 600px;
+    margin-right: 100px;
+}
+
+.deal-content h3{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.deal-content p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.deal-content button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(226, 68, 102);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
