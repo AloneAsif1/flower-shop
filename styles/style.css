@@ -25,6 +25,7 @@ body{
     color: #272727;
     font-size: 80px;
     margin-top: 150px;
+    margin-bottom: 0px;
 }
 
 .banner p{
@@ -37,4 +38,14 @@ font-weight: 400;
 line-height: 30px;
 margin-top: 32px;
 margin-bottom: 32px;
+}
+
+.banner button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(226, 68, 102);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
 }
