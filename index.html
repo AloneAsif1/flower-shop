@@ -80,6 +80,25 @@
             <div class="pic"><img src="images/insta-3.png" alt="Pic from instagram"></div>
             <div class="pic"><img src="images/insta-4.png" alt="Pic from instagram"></div>
         </section>
+
+        <section class="find">
+            <form action="find.php">
+                <h3>Find Product</h3>
+                <div class="name">
+                    Flower Name : <input id="name" type="text" placeholder="(Optional)">
+                </div>
+                <div class="price">Price Range &nbsp;&nbsp;&nbsp;: <select name="price" id="price">
+                        <option value="10">$0-$10</option>
+                        <option value="15">$10-$20</option>
+                        <option value="20">$20+</option>
+                    </select>
+
+                </div>
+                <div class="type">Product Type : <input class="radio-type" type="radio" name="type">Single Flower &nbsp;&nbsp;<input class="radio-type" type="radio" name="type">Tree &nbsp;&nbsp;<input class="radio-type" type="radio" name="type">Bouquet
+                </div>
+                <div class="submit"><input type="submit" value="Find" id="submit"></div>
+            </form>
+        </section>
     </main>
 </body>
 
