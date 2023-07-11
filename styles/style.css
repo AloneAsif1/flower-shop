@@ -152,7 +152,9 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
-
+.deal-content button:hover{
+    background-color: #272727;
+}
 .insta {
     width: 600px;
     margin: auto;
@@ -270,4 +272,43 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+}
+
+.latest-input{
+   display: flex;
+   width: 900px;
+   margin: auto;
+   /* border: 3px solid red; */
+  justify-content: center;
+}
+
+#latest-input{
+    color: rgba(39, 39, 39, 0.60);
+text-align: left;
+font-size: 16px;
+font-weight: 400;
+padding: 22px;
+padding-right: 450px;
+border-radius: 7px;
+border: none;
+box-shadow: 5px 5px 30px 5px #272727;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+.latest-button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(226, 68, 102);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.latest-button:hover{
+    background-color: #272727;
+   
 }
